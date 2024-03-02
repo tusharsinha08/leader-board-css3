@@ -1,6 +1,43 @@
  /* Fonts  */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+
+header{
+    height: 100px;
+    background-color: #562eff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-title{
+    color: white;
+    font-size: 35px;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style-type: none;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
 body{
     font-family: "Poppins", sans-serif;
     background-color: #f3f1ff;
@@ -124,6 +161,19 @@ hr{
 
 
 @media only screen and (max-width:668px) {
+    .header{
+        margin: 0 5px;
+    }
+    .logo img{
+        width: 35px;
+        height: 35px;
+    }
+    .logo-title{
+        font-size: 24px;
+    }
+    .menu ul {
+        gap: 5px;
+    }
     .container{
         width: 85%;
     }
